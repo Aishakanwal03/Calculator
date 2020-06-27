@@ -1,0 +1,64 @@
+.main {
+    width: 380px;
+    /* height: 500px; */
+    /* background-color: rgb(245, 245, 245); */
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 10px !important;
+    overflow: hidden;
+    
+}
+
+
+.calc {
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    padding: 5px 5px;
+ 
+}
+.calc div {
+    flex: 1;
+    margin: 3px 9px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(41, 38, 38, 0.6); */
+    background-color: rgb(136, 3, 3, 0.6);
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px 0px whitesmoke;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    
+}
+.calc div:hover {
+     background-color: rgb(136, 3, 3, 0.3) ;
+    /* background-color: rgb(41, 38, 38, 0.7) ; */
+    border-radius: 30%;
+    transition: 0.5s;
+}
+.calc .num {
+    background-color: rgb(128, 128, 128, 0.6) ;
+    color: white;
+}
+.calc .num:hover {
+    background-color: rgb(41, 38, 38, 0.7) ;
+}
+.equal {
+    background-color: rgb(5, 5, 77) !important;
+    flex: 2 !important;
+}
+.input{
+    height: 100px;
+    background-color: rgb(245, 245, 245) ;
+    text-align: right;
+    padding: 10px;
+
+}
+

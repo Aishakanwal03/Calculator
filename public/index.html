@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "main" >
+        <div class="input">
+            <h1 id="input"></h1>
+            <p id="output">0</p>
+            
+        </div>
+        <div style = "padding: 10px 0px; background-color: black;">
+        <div class = "calc">
+            <div onclick = "value('C')">C</div>
+            <div onclick = "value('AC')">AC</div>
+            <div onclick="value('(')">(</div>
+            <div onclick="value(')')">)</div>
+            <div onclick="value('x')">x</div>
+        </div>
+        <div class = "calc">
+            <div class = "num" onclick="value(7)">7</div>
+            <div class = "num" onclick="value(8)">8</div>
+            <div class = "num" onclick="value(9)">9</div>
+            <div onclick="value('&#8730;')">&#8730;</div>
+            <div onclick="value('&#247;')">&#247;</div>
+        </div>
+        <div class = "calc">
+            <div class = "num" onclick="value(4)">4</div>
+            <div class = "num" onclick="value(5)">5</div>
+            <div class = "num" onclick="value(6)">6</div>
+            <div onclick="value('%')"> %</div>
+            <div onclick="value('+')">+</div>
+            
+        </div>
+        <div class = "calc">
+            <div class = "num" onclick="value(1)">1</div>
+            <div class = "num" onclick="value(2)">2</div>
+            <div class = "num" onclick="value(3)">3</div>
+            <div>X <sup> ^</sup></div>
+            <div onclick="value('-')">-</div>
+        </div>
+        <div class = "calc">
+            <div onclick="value(0)">0</div>
+            <div onclick="value(00)">00</div>
+            <div onclick="value('.')">.</div>
+            <div class = "equal" onclick = "value('=')">=</div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
